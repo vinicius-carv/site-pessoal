@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Raleway:wght@300&display=swap');
+/*
+Titulo - font-family: 'Raleway', sans-serif;
+Corpo -  font-family: 'Inconsolata', monospace;
+*/
+body{
+  background: rgb(38, 38, 38);
+  padding: 0;
+  margin: 0;
+  display:flex;
+}
+.Homelogo img{
+  height:80px;
+  position: absolute;
+  left:2%;
+}
+.Navbar{
+  position: absolute;
+  display: inline-block;
+  left: 36%;
+  top:4%;
+
+}
+.Navbar button{
+  margin-right: 5px;
+  border-radius: 8px;
+  border-color:#399d45;
+  background-color: #399d45;
+  color:#ffffff;
+  font-size: x-large;
+  font-family: 'Raleway', sans-serif;
+}
+.Navbar button:hover{
+  transform: scale(120%);
+  transition-duration: 400ms;
+}
