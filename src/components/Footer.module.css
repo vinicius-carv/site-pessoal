@@ -1,0 +1,25 @@
+.container{
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    border-top: 2px;
+    border-color:#399d45;
+    overflow-block: hidden;
+    margin: 0;
+    padding: 0;
+}
+.container a{
+    color: #399d45;
+    margin-right: 60px;
+}
+.footerLinks{
+    position: relative;
+    width: max-content;
+    left: 40%;
+}
+.footerDesc{
+    position: relative;
+    width: max-content;
+    left: 38%;
+}

@@ -4,6 +4,12 @@
 Titulo - font-family: 'Raleway', sans-serif;
 Corpo -  font-family: 'Inconsolata', monospace;
 */
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  font-family: 'Inconsolata', monospace;
+}
 body{
   background: rgb(38, 38, 38);
   padding: 0;
@@ -20,18 +26,39 @@ body{
   display: inline-block;
   left: 36%;
   top:4%;
-
 }
+/*Caso queira o Nav um pouco mais com cara de botao*/
+/*.Navbar button{*/
+/*  margin-right: 5px;*/
+/*  border-radius: 8px;*/
+/*  border-color:#399d45;*/
+/*  background-color: #399d45;*/
+/*  color:#ffffff;*/
+/*  font-size: x-large;*/
+/*  font-family: 'Raleway', sans-serif;*/
+/*}*/
 .Navbar button{
   margin-right: 5px;
-  border-radius: 8px;
-  border-color:#399d45;
-  background-color: #399d45;
+  border: 0px;
+  background-color: inherit;
   color:#ffffff;
   font-size: x-large;
   font-family: 'Raleway', sans-serif;
 }
 .Navbar button:hover{
+  transform: scale(120%);
+  transition-duration: 400ms;
+}
+button{
+  margin-right: 5px;
+  border: 3px #389a43;
+  border-radius: 6px;
+  background-color: #317c3b;
+  color:#ffffff;
+  font-size: x-large;
+  font-family: 'Raleway', sans-serif;
+}
+button:hover{
   transform: scale(120%);
   transition-duration: 400ms;
 }

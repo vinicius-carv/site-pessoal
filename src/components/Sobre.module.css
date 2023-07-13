@@ -1,0 +1,30 @@
+.pfp{
+    height: 400px;
+    position: absolute;
+    left:43%;
+    top:15%;
+    border-radius: 9px;
+}
+.sobreContainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top:65%;
+}
+.desc{
+    color: #ffffff;
+    font-size: large;
+    position: absolute;
+    width: 60%;
+    text-align: justify;
+}
+.extLinks{
+    position: absolute;
+    top: 75%;
+    left: 41%;
+}
+.extLinks button{
+    margin: 1px;
+}
