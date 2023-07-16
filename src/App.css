@@ -9,6 +9,7 @@ h1{
 }
 p{
   font-family: 'Inconsolata', monospace;
+  color: #ffffff;
 }
 body{
   background: rgb(38, 38, 38);
@@ -21,25 +22,22 @@ body{
   position: absolute;
   left:2%;
 }
+/*.Navbar{*/
+/*  position: absolute;*/
+/*  display: inline-block;*/
+/*  left: 35%;*/
+/*  top:4%;*/
+/*}*/
 .Navbar{
   position: absolute;
-  display: inline-block;
-  left: 36%;
-  top:4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top:10px;
 }
-/*Caso queira o Nav um pouco mais com cara de botao*/
-/*.Navbar button{*/
-/*  margin-right: 5px;*/
-/*  border-radius: 8px;*/
-/*  border-color:#399d45;*/
-/*  background-color: #399d45;*/
-/*  color:#ffffff;*/
-/*  font-size: x-large;*/
-/*  font-family: 'Raleway', sans-serif;*/
-/*}*/
 .Navbar button{
-  margin-right: 5px;
-  border: 0px;
+  margin-right: 15px;
   background-color: inherit;
   color:#ffffff;
   font-size: x-large;
@@ -48,6 +46,7 @@ body{
 .Navbar button:hover{
   transform: scale(120%);
   transition-duration: 400ms;
+  cursor: pointer;
 }
 button{
   margin-right: 5px;
@@ -61,4 +60,9 @@ button{
 button:hover{
   transform: scale(120%);
   transition-duration: 400ms;
+  cursor: pointer;
+}
+label{
+  font-family: 'Raleway', sans-serif;
+  font-size: large;
 }

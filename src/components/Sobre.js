@@ -18,7 +18,7 @@ export default function Sobre() {
             <div className={styles.extLinks}>
                 <Link to={"https://www.linkedin.com/in/vinicius-carv/"} target={"_blank"} rel={"noreferrer"}><button>Linkedin</button></Link>
                 <Link to={"https://github.com/vinicius-carv"} target={"_blank"} rel={"noreferrer"}><button>Github</button></Link>
-                <Link to={"/projects"} target={"_blank"} rel={"noreferrer"}><button>Projetos</button></Link>
+                <Link to={"/projects"}><button>Projetos</button></Link>
                 <Link to={"http://lattes.cnpq.br/2241989190463682"} target={"_blank"} rel={"noreferrer"}><button>Lattes</button></Link>
             </div>
         </>

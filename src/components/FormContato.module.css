@@ -1,0 +1,61 @@
+.pageTitle{
+    color: #ffffff;
+    font-size: x-large;
+    position: absolute;
+    top: 18%;
+    left:35%;
+}
+.formContato{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 41%;
+}
+label{
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+input{
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid #317c3b;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    flex-grow: 1;
+}
+input, select, textarea{
+    color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+}
+textarea:focus, input:focus {
+    color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+}
+.input[type="text"]:focus {
+    outline: 1px solid #317c3b !important;
+    border:1px solid #317c3b !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+.submitBtn{
+    border: 3px solid #389a43;
+    border-radius: 6px;
+    background-color: #317c3b;
+    color:#ffffff;
+    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    align-self: flex-start;
+    padding: 4px 8px;
+    margin-top: 15px;
+}
+.submitBtn:hover{
+    transform: scale(110%);
+    transition-duration: 400ms;
+    cursor: pointer;
+}
