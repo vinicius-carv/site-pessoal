@@ -11,6 +11,11 @@ p{
   font-family: 'Inconsolata', monospace;
   color: #ffffff;
 }
+li{
+  font-family: 'Inconsolata', monospace;
+  color: #ffffff;
+  list-style: none;
+}
 body{
   background: rgb(38, 38, 38);
   padding: 0;
@@ -21,6 +26,7 @@ body{
   height:80px;
   position: absolute;
   left:2%;
+  z-index: 1;
 }
 /*.Navbar{*/
 /*  position: absolute;*/

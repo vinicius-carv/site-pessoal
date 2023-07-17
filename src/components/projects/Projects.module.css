@@ -1,0 +1,24 @@
+.projectsColumn{
+    position: relative;
+    display: flex;
+    width: 700px;
+    top:60px;
+    left: 85%;
+    text-align: center;
+    text-justify: auto;
+}
+.projectsContainer{
+    border: 1px solid #317c3b;
+    border-radius: 8px;
+}
+.projectsColumn ul:hover{
+    transform: scale(110%);
+    transition: 200ms;
+}
+.projectsColumn li:hover{
+    transform: scale(100.3%);
+    transition: 200ms;
+}
+a, a:visited {
+    text-decoration: none;
+}

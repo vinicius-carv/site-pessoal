@@ -1,7 +1,7 @@
 import './App.css';
 import logo from './assets/logo.png'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import {Homepage, Sobre, FormContato, Success} from './Routes';
+import {Homepage, Sobre, FormContato, Success, Projects,ProjectsDetalhe} from './Routes';
 import Footer from "./components/Footer";
 import React from "react";
 import FloatButton from "./components/floatButton";
@@ -23,6 +23,8 @@ function App() {
             <Route path={"/about-me"} element={<Sobre />}/>
             <Route path={"/contact"} element={<FormContato />}/>
             <Route path={"/success"} element={<Success />}/>
+            <Route path={"/projects"} element={<Projects />}/>
+            <Route path={"projects/:projectId"} element={<ProjectsDetalhe />}/>
         </Routes>
       </BrowserRouter>
   );

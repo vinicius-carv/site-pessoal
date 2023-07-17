@@ -1,12 +1,3 @@
-/*.container{*/
-/*    color: #ffffff;*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    top: 90%;*/
-/*    overflow-block: hidden;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
 .container{
     position: absolute;
     display: inline-block;
@@ -22,7 +13,7 @@
 .footerLinks{
     position: relative;
     width: max-content;
-    left: 40%;
+    left: 41%;
 }
 .footerDesc{
     position: relative;

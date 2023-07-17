@@ -1,0 +1,13 @@
+.resumoProjeto{
+    display: grid;
+    padding: 10px;
+    justify-items: center;
+}
+.resumoProjeto li{
+    padding-top: 5px;
+}
+.resumoProjeto img{
+    border-radius: 8px;
+    width: 600px;
+    height: auto;
+}

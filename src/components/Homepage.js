@@ -31,7 +31,7 @@ const Homepage = () => {
         return () => {
             clearInterval(typeAnimation);
         };
-    }, []);
+    }, [fullText]);
 
     return (<>
         <div className={styles.homepageContainer}>

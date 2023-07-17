@@ -19,7 +19,8 @@ export default function Sobre() {
                 <Link to={"https://www.linkedin.com/in/vinicius-carv/"} target={"_blank"} rel={"noreferrer"}><button>Linkedin</button></Link>
                 <Link to={"https://github.com/vinicius-carv"} target={"_blank"} rel={"noreferrer"}><button>Github</button></Link>
                 <Link to={"/projects"}><button>Projetos</button></Link>
-                <Link to={"http://lattes.cnpq.br/2241989190463682"} target={"_blank"} rel={"noreferrer"}><button>Lattes</button></Link>
+                <Link to={"https://vinicius-carv.infinityfreeapp.com/static/media/curriculum_pt.pdf"} target={"_blank"} rel={"noreferrer"}><button>Curriculo PT-BR</button></Link>
+                <Link to={"https://vinicius-carv.infinityfreeapp.com/static/media/curriculum_en.pdf"} target={"_blank"} rel={"noreferrer"}><button>Curriculo EN</button></Link>
             </div>
         </>
     )
